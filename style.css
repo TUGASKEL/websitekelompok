@@ -1,0 +1,319 @@
+.bold-text {
+    font-weight: bold;
+}
+
+
+.hero {
+    background: #ff5722;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 57px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .contact-button {
+    background: #fff;
+    color: #ff5722;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .contact-button:hover {
+    background: #f0f0f0;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .service {
+    width: 23%;
+}
+
+.services .service h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.services .service ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services .service ul li {
+    margin-bottom: 10px;
+}
+
+.services .service address a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.services .service address a:hover {
+    text-decoration: underline;
+}
+.teks-tebal {
+    font-weight: bold; /* atau bisa menggunakan angka seperti 700 */
+}
+.spasi-huruf {
+    letter-spacing: 5px; /* Atur jarak sesuai kebutuhan */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.member-area {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 160px; /* Atur lebar kotak untuk membuatnya persegi panjang */
+    height: 30px; /* Atur tinggi kotak */
+    background-color: #ff7f50; /* Warna latar belakang kotak */
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    line-height: 10px; /* Pusatkan teks secara vertikal */
+    border-radius: 20px; /* Atur radius sudut kotak untuk melengkung */
+}
+
+
+
+
+
+.support {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.accordion-content {
+    padding: 10px 15px;
+    display: none;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.accordion-button.active {
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+.accordion-button.active::after {
+    content: "-";
+}
+
+.accordion-button::after {
+    content: "+";
+}
+
+.accordion-button.active {
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+.accordion-button.active::after {
+    content: "-";
+}
+
+.accordion-button::after {
+
+
+    
+    content: "+";
+}
+
+
+/*harga*/
+.package-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: red;
+        }
+        .new-price {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+.package-card {
+    border: 2px solid orange; /* Mengatur warna border menjadi oranye */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*icon*/
+ .feature-icon {
+            font-size: 40px;
+            color: #333;
+            border: 2px solid #333;
+            border-radius: 50%;
+            padding: 15px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1px;
+        }
+        .feature-title {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .feature-description {
+            color: #555;
+        }
+        .feature-card {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+.feature-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    background-color: #f9f3f3; /* Warna latar belakang */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Jarak antar feature-card */
+}
+.feature-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.feature-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.feature-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px; /* Jarak antara judul dan deskripsi */
+}
+.feature-description {
+    font-size: 1em;
+    color: #666;
+}
+.feature-title {
+    font-size: 0.99em; /* Ukuran lebih kecil dari h6 */
+    font-weight: bold;
+    margin-bottom: 8px;
+   
+}
+
+.feature-description {
+    font-size: 0.85em; /* Atur sesuai kebutuhan */
+    color: #666;
+}
+
+.daftar-poin {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+/*ceklis*/
+.checklist-item {
+      display: flex;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    .checkmark {
+      color: #28a745; /* Warna hijau */
+      font-size: 24px;
+      margin-right: 10px;
+    }

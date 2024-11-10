@@ -1,0 +1,195 @@
+.service-banner {
+    text-align: center;
+    background-color: #d9534f;
+    color: white;
+    padding: 3rem;
+    margin:0;
+    border-radius: 8px;
+}
+
+.service-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service-banner h2 {
+    font-size: 2rem;
+}
+
+.service-banner p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+/* Additional Info Section */
+.additional-info {
+    text-align: center;
+    margin: 2rem;
+}
+
+.additional-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+/**/
+
+.hero {
+    background: #ff5722;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 57px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .contact-button {
+    background: #fff;
+    color: #ff5722;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .contact-button:hover {
+    background: #f0f0f0;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .service {
+    width: 23%;
+}
+
+.services .service h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.services .service ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services .service ul li {
+    margin-bottom: 10px;
+}
+
+.services .service address a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.services .service address a:hover {
+    text-decoration: underline;
+}
+.teks-tebal {
+    font-weight: bold; /* atau bisa menggunakan angka seperti 700 */
+}
+.spasi-huruf {
+    letter-spacing: 5px; /* Atur jarak sesuai kebutuhan */
+}
+/**/
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+/* Pricing Plan Styling */
+.pricing-plan {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.old-price {
+    font-size: 1rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 2rem;
+    color: #d9534f;
+    margin-top: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #d9534f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Featured Plan */
+.featured {
+    border: 2px solid #d9534f;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+.member-area {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 160px; /* Atur lebar kotak untuk membuatnya persegi panjang */
+    height: 30px; /* Atur tinggi kotak */
+    background-color: #ff7f50; /* Warna latar belakang kotak */
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    line-height: 10px; /* Pusatkan teks secara vertikal */
+    border-radius: 20px; /* Atur radius sudut kotak untuk melengkung */
+}
+
+.foto img{
+    height: 600px;
+
+}

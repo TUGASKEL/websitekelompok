@@ -1,0 +1,171 @@
+
+.hero {
+    background: #ff5722;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 57px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .contact-button {
+    background: #fff;
+    color: #ff5722;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .contact-button:hover {
+    background: #f0f0f0;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .service {
+    width: 23%;
+}
+
+.services .service h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.services .service ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services .service ul li {
+    margin-bottom: 10px;
+}
+
+.services .service address a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.services .service address a:hover {
+    text-decoration: underline;
+}
+.teks-tebal {
+    font-weight: bold; /* atau bisa menggunakan angka seperti 700 */
+}
+.spasi-huruf {
+    letter-spacing: 5px; /* Atur jarak sesuai kebutuhan */
+}
+/**/
+
+
+
+/* Main Content */
+.pricing {
+    text-align: center;
+    background-color: #d9534f;
+    color: white;
+    padding: 2rem;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.pricing h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.order-button {
+    background-color: #fff;
+    color: #d9534f;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.member-area {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 160px; /* Atur lebar kotak untuk membuatnya persegi panjang */
+    height: 30px; /* Atur tinggi kotak */
+    background-color: #ff7f50; /* Warna latar belakang kotak */
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    line-height: 10px; /* Pusatkan teks secara vertikal */
+    border-radius: 20px; /* Atur radius sudut kotak untuk melengkung */
+}
+
+/*mm*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #000000  ;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.checklist {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+.checklist li {
+    font-size: 14px; /* Ukuran font daftar lebih kecil */
+    margin-bottom: 8px; /* Jarak antar item lebih kecil */
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.5; /* Menambah jarak antar baris di dalam daftar */
+}
+
+.checklist li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #000000; /* Ubah warna ceklis menjadi hitam */
+    font-size: 14px;
+}
